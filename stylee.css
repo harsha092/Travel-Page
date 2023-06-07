@@ -1,0 +1,168 @@
+/* Header */
+
+header {
+    background-color: #008080;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+li.destinations {
+    font-weight: bold;
+}
+
+
+/* Navigation */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Hero Image */
+
+.hero-image {
+    background-image: url('https://cdn.pixabay.com/photo/2014/06/30/08/09/taj-mahal-380045__340.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #055252;
+    padding: 100px;
+}
+
+.hero-image h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-image p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+#bottom {
+    background-color: darkcyan;
+    color: white;
+    width: 100%;
+    height: 250px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#menu1 {
+    float: right;
+    width: 150px;
+    margin-top: 50px;
+    list-style: none;
+}
+
+#menu2 {
+    float: right;
+    width: 150px;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #036f6f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #036f6f;
+}
+
+
+/* Destination List */
+
+.destination-list {
+    padding: 50px;
+}
+
+.destination-list h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.destination-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destination-list li {
+    flex-basis: 30%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
+
+.destination-list li:last-child {
+    margin-right: 0;
+}
+
+.destination-list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.destination-list h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destination-list p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* About Us */
+
+.about-us {
+    background-color: #f6eded;
+    padding: 50px;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #036f6f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
